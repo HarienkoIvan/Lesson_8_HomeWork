@@ -1,0 +1,126 @@
+
+/* Обнуление стилей */
+*,
+*::before *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,body {
+    height: 100%;
+}
+
+/* По умолчанию 16 рх */
+html {
+    font-size: 16px;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+} 
+ 
+.wrapper {
+    min-height: 100%;  
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* .........lesson8 Home Work.......... */
+
+.title {
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+color: #000;
+margin: 20px 0px 78px 0px;
+}
+
+
+.perspiciatis {
+display: flex;
+flex-wrap: wrap;
+}
+
+.perspiciatis_item {
+border-radius: 20px;
+    width: 324px;
+    height: 340px;
+    background: #fff;
+    padding: 50px 43px 8px 33px;
+    cursor: pointer;
+    box-shadow: 10px 10px 30px #4b4b4b;
+    margin: 0px 24px 24px 0px;
+}
+
+.perspiciatis_icon {
+    text-align: center;
+    padding: 20px 86px 33px 88px;
+    width: 63px;
+    height: 63px;
+}
+
+.perspiciatis_body {
+    width: 237px;
+    height: 240px;
+    margin: 0px 0px 0px 43px;
+}
+
+.perspiciatis_title {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 18px;
+line-height: 137%;
+color: #f2726f;
+margin: 0px 0px 20px 0px;
+text-align: center;
+white-space: nowrap;
+}
+
+.perspiciatis_text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #4b4b4b;
+margin: 0px 2px 1px 0px;
+padding: 0px 0px 0px 9px;
+}
+
+
+
+
+
